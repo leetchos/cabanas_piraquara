@@ -107,6 +107,7 @@ img {
 
 .video-section {
   background: #000;
+  margin-top: 1.5rem;
 }
 
 .video-wrapper {
@@ -120,6 +121,10 @@ img {
 }
 
 @media (max-width: 600px) {
+  .video-section {
+    margin-top: 1rem;
+  }
+
   .hero-content {
     padding: 2.5rem 1.25rem;
   }
@@ -218,11 +223,6 @@ img {
 .footer {
   background: var(--forest-dark);
   color: rgba(255, 255, 255, 0.75);
-  text-align: center;
-  padding: 2rem 1.5rem;
-  font-size: 0.9rem;
-}
-
   text-align: center;
   padding: 2rem 1.5rem;
   font-size: 0.9rem;
